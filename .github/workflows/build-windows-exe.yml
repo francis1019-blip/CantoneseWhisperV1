@@ -25,7 +25,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --noconfirm --clean --onedir --windowed --name CantoneseWhisper cantonese_whisper_gui.py
+          pyinstaller --noconfirm --clean --onedir --windowed --name CantoneseWhisper cantonese_whisper_gui_modern.py
 
       - name: Create ZIP
         run: |
